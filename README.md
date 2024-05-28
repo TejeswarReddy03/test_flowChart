@@ -21,7 +21,7 @@ graph TD;
     A -->|Not logged in| C[loginpage.dart]
     C --> D[otppage.dart]
     D --> E[switchuser.dart]
-    E --> B[bottomscreen.dart]
+    E --> B
 
     B --> F[homescreen.dart]
     B --> G[servicepage.dart]
@@ -48,7 +48,7 @@ graph TD;
     S --> X[facts_about_eye.dart]
 
     G --> Y[services.dart]
-    Y --> T[prescription.dart]
+    Y --> T
     Y --> Z[connect_with_doctor.dart]
     Y --> AA[other_services.dart]
 
